@@ -81,6 +81,14 @@
                 "symlink": true,
                 "plus-soft": true
             }
+        },
+        {
+              "type": "path",
+              "url": "packages/plus-componet-pc",
+              "options": {
+                  "symlink": true,
+                  "plus-soft": true
+              }
         }
     ],
     "require": {
@@ -115,7 +123,10 @@
         "slimkit/plus-socialite": "1.8.2",
         "symfony/finder": "^4.0",
         "symfony/yaml": "^4.0",
-        "tymon/jwt-auth": "1.0.0-rc.2"
+        "tymon/jwt-auth": "1.0.0-rc.2",
+        "overtrue/socialite": "^2.0",
+        "gregwar/captcha": "1.*",
+        "zhiyicx/plus-component-pc": "^3.0.0"
     },
     "require-dev": {
         "codacy/coverage": "^1.4",
